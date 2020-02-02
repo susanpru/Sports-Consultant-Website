@@ -235,6 +235,17 @@ video {
     text-shadow: 0 0 10px #fff, 0 0 5px #194F6A, 0 0 5px #194F6A, 0 0 5px #194F6A, 0 0 5px #194F6A, 0 0 10px #194F6A, 0 0 4px #ff4da6;
   }
 }
+@media (max-width: 480px) {
+  .navbar li {
+    padding: .3rem;
+  }
+  .glow {
+    font-size: 3.5rem;
+  }
+
+}
+
+
 @media (max-width: 780px) {
   #about {
     display: block;
